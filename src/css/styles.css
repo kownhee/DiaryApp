@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    font-family: var(--primary-kr);
+    font-weight: 500;
+}
+
+body {
+    font-size: 15px;
+    line-height: 1.5em;
+    font-weight: 500;
+    color: #000;
+    font-family: var(--primary-kr);
+    margin: 0;
+}
+/* Layout CSS */
+.container{
+    width: 100%;
+    position: relative;
+    /* border: 1px solid #000; */
+    max-width: 1200px; 
+    /* padding: 0; */
+}
+.inner{
+    width: 1200px;
+    max-width: 1200px;
+    margin: auto;
+}

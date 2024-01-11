@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    font-weight: 500;
+}
+
+/* Heading Font Size */
+h1 {font-size: 28px;}
+h2 {font-size: 22px;}
+h3 {font-size: 18px;}
+p {margin: 0; padding: 0;}
+
+input,
+button,
+select {
+outline: none;
+}
+ul{list-style: none;}
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, img {
+margin: 0;
+padding: 0;
+}
+
+table {
+    width: 100%;
+    border: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+a:not([href]):not([class]), a:not([href]):not([class]):hover{
+    color : none !important;
+}
+
+input::placeholder {
+    color: var(--bs-gray-600);
+    font-weight: 500;
+}
+
+select option {
+    font-weight: 500;
+}
+label{
+    font-weight: 500; 
+}
+input[type="text"],
+input[type="password"] {
+    font-weight: 500;
+}
+button {
+    width: auto;
+    border: 0;
+    padding: 0;
+    background: none;
+    font-weight: normal;
+}
+span{
+    font-weight: 500;
+}
+
+a {
+    color: inherit !important;
+    text-decoration: none !important; 
+}
+  
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+dl, ol, ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
