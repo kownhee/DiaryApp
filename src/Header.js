@@ -12,10 +12,14 @@ function Header()
 {
     return(
         <>
-        {/* css 기본 세팅이랑 헤더 해라  */}
         <header>
             <nav>
-            
+            <div className="global_nav_wrap">
+                <div className="global_nav">
+                        
+                </div>
+            </div>
+
             </nav>
         </header>
         </>
