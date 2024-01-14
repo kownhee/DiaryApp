@@ -79,6 +79,37 @@ header .global_nav_wrap .global_nav{
 }
 
 
+/* GNB CSS */
+.gnb{
+    border-top: 1px solid #EEEEEE;
+    /* border: 1px solid #000; */
+    height: 65px;
+  
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: none;
+    background-color: #fff;
+    z-index: 99;
+}
+.gnb a{
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 13px;
+}
+.gnb a .svg-inline--fa{
+    font-size: 23px;
+    margin-bottom: 2px;
+}
+.gnb a span{
+    display: block;
+    font-size: 12px;
+}
+
 /* ###### 만다라트 content Box ####### */
 .MandalArt-wrap {
     display: flex;
