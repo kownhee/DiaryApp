@@ -15,11 +15,11 @@ function Gnb()
             </Link>
             <Link to="/">
                 <FontAwesomeIcon icon={faHashtag}/> 
-                Magazine
+                Mandalart
             </Link>
             <Link to="/">
                 <FontAwesomeIcon icon={faT}/> 
-                Test
+                
             </Link>
             <Link to="/mypage">
                 <FontAwesomeIcon icon={faUser}/> 
